@@ -1,0 +1,368 @@
+@import "./_fonts.scss";
+@import "./_reset.scss";
+
+body {
+  font-family: "Mazzard H regular";
+  background-color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f3f3f3;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-top: 22px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.nav__list {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav__list-link:not(:first-child) {
+  margin-left: 45px;
+}
+
+.nav__career {
+  cursor: pointer;
+  width: 170px;
+  height: 60px;
+  background: linear-gradient(140.6deg, #ffffff -27.18%, #dedede 126.06%);
+  box-shadow: 0px 0px 49px rgba(42, 7, 254, 0.4);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 47px;
+}
+
+.nav__career-btn {
+  cursor: pointer;
+  font-family: "Mazzard H bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.nav__arrow {
+  margin-left: 8px;
+  width: 24px;
+  height: 24px;
+  left: 1270px;
+  top: 41px;
+}
+
+/* Main */
+
+.main {
+  margin-top: 100px;
+}
+
+.main__inner {
+  display: flex;
+}
+
+.main__sphere {
+  position: absolute;
+  width: 742px;
+  height: 597px;
+  left: -224px;
+  top: -158px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 255, 255, 0.09) 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
+  object-fit: cover;
+}
+
+.main__title {
+  font-family: "Mazzard H medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.2776px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin-bottom: 32.26px;
+}
+
+.main__bgImage {
+  position: absolute;
+  width: 1535.39px;
+  height: 676.37px;
+  left: -41.4px;
+  top: 89px;
+  mix-blend-mode: hard-light;
+  opacity: 0.35;
+  z-index: -2;
+}
+
+.main__bgImage1 {
+  background-attachment: fixed;
+  width: 127px;
+  height: 16px;
+  left: 97px;
+  top: 184.49px;
+  font-family: "Noto Sans Mono";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 11.9447px;
+  line-height: 16px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #b5c5ff 53.58%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.main__bg-text2 {
+  position: fixed;
+  width: 220.79px;
+  height: 116.38px;
+  left: 424px;
+  top: 503.49px;
+  font-family: "Noto Sans Mono";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 11.9447px;
+  line-height: 16px;
+
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #b5c5ff 53.58%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  opacity: 0.4;
+  z-index: -4;
+}
+
+.main__subtitle {
+  width: 740px;
+  font-family: "Mazzard H bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96.3878px;
+  line-height: 90px;
+  color: #ffffff;
+  text-shadow: 0px 5.14068px 5.14068px rgba(0, 0, 0, 0.25);
+}
+
+.main__subtitle-blue {
+  font-family: "Mazzard H bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96.3878px;
+  line-height: 90px;
+  background: linear-gradient(
+    89.95deg,
+    #487fff -1.65%,
+    #73b5ff 51.06%,
+    #cb76ff 99.96%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-shadow: 0px 5.14068px 5.14068px rgba(0, 0, 0, 0.25);
+}
+
+.main__descr {
+  margin-top: 32.13px;
+  width: 559.05px;
+  font-family: "Mazzard H regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25.7034px;
+  line-height: 30px;
+  color: #e9e9e9;
+}
+
+.main__descr-img {
+  position: absolute;
+  width: 798.54px;
+  height: 435px;
+  right: -120px;
+  top: 150px;
+  z-index: -1;
+  background-attachment: fixed;
+}
+
+.main__bg- {
+}
+
+.main__learn-more {
+  margin: 0 auto;
+  margin-top: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 68px;
+
+  background: linear-gradient(140.6deg, #3e6ff9 -27.18%, #3e53f8 126.06%);
+  box-shadow: 0px 0px 49px rgba(42, 7, 254, 0.4);
+  border-radius: 10px;
+}
+
+.main__learn-more-icons {
+  position: relative;
+}
+
+.main__learn-more-ellipse {
+  margin-left: 34px;
+}
+
+.main__learn-more-arrow {
+  position: absolute;
+  left: 65%;
+  top: 35%;
+}
+
+.main__mouse {
+  margin: 0 auto;
+  margin-top: 118px;
+  text-align: center;
+  width: 17px;
+  height: 29px;
+  position: relative;
+}
+
+.main__mouse-icon1 {
+}
+
+.main__mouse-icon2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 6px;
+}
+/* Main */
+
+/* About */
+
+.about__bgImage {
+  position: absolute;
+  width: 1833px;
+  height: 1833px;
+  left: 97px;
+  top: 818px;
+  z-index: -1;
+}
+
+.about__inner {
+  margin-top: 143px;
+}
+
+.about__title {
+  font-family: "Mazzard H medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+.about__subtitle {
+  font-family: "Mazzard H medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.about__row {
+  display: flex;
+  max-width: 1065px;
+}
+
+.about__chart-image {
+}
+
+.about__content {
+  margin-left: auto;
+  margin-top: 93px;
+  max-width: 373px;
+  font-family: "Mazzard H regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #e9e9e9;
+}
+
+.about__content-title {
+  font-family: "Mazzard H bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 43px;
+  color: #ffffff;
+  margin-bottom: 33px;
+}
+
+.about__content-item {
+  display: flex;
+}
+
+.about__content-text {
+  margin-left: 5px;
+  margin-bottom: 26px;
+  margin-top: 8px;
+}
+
+.about__polygon {
+  align-self: flex-start;
+}
+
+.about__start {
+  width: 205px;
+  height: 62px;
+
+  background: linear-gradient(140.6deg, #3e6ff9 -27.18%, #3e53f8 126.06%);
+  box-shadow: 0px 0px 49px rgba(42, 7, 254, 0.4);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* About */
