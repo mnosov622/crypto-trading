@@ -7,6 +7,8 @@ import NavBar from "../src/components/navBar/NavBar";
 import Container from "./components/Container";
 import Main from "./components/main/Main";
 import About from "./components/about/About";
+import About2 from "./components/about2/About2";
+import About3 from "./components/about3/About3";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +16,8 @@ root.render(
     <NavBar />
     <Main />
     <About />
+    <About2 />
+    <About3 />
   </Container>
 );
 

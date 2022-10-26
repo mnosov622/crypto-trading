@@ -338,6 +338,7 @@ img {
   line-height: 43px;
   color: #ffffff;
   margin-bottom: 33px;
+  margin-left: 8px;
 }
 
 .about__content-item {
@@ -355,9 +356,11 @@ img {
 }
 
 .about__start {
+  margin-top: 18px;
+  cursor: pointer;
   width: 205px;
   height: 62px;
-
+  margin-left: 15px;
   background: linear-gradient(140.6deg, #3e6ff9 -27.18%, #3e53f8 126.06%);
   box-shadow: 0px 0px 49px rgba(42, 7, 254, 0.4);
   border-radius: 10px;
@@ -366,3 +369,288 @@ img {
   align-items: center;
 }
 /* About */
+
+/* About platform */
+
+.platform__inner {
+  margin-top: 258px;
+}
+
+.platform__rectangles {
+  display: flex;
+}
+
+.platform__rectangle {
+  padding: 40.56px 27.04px;
+  width: 216.33px;
+  height: 292.05px;
+  border: 0.9px solid rgba(255, 255, 255, 0.3);
+  background: radial-gradient(
+    100% 100% at 0% 0%,
+    rgba(48, 48, 48, 0.15) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: inset -4.50695px -4.50695px 225.348px rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(12.6195px);
+  border-radius: 25.2389px;
+  position: relative;
+}
+
+.platform__card {
+  width: 162.25px;
+  height: 52.28px;
+  background: #000000;
+  border-radius: 10.8167px;
+  font-family: "Mazzard H regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.4222px;
+  line-height: 170%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.platform__card::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  background: url("../img/svg/Line 1.svg") center no-repeat;
+  width: 26.96px;
+  height: 1px;
+}
+
+.platform__card--line1::after {
+}
+.platform__card:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  background: url("../img/svg/Line 2.svg") center no-repeat;
+  width: 46.87px;
+  height: 1px;
+}
+
+.platform__card:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  right: -19.83px;
+  background: url("../img/svg/Line 3.svg") center no-repeat;
+  width: 1px;
+  height: 91.94px;
+  opacity: 0.8;
+}
+
+.platform__card:not(:last-child) {
+  margin-bottom: 27.04px;
+}
+
+.platform__cards--centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.platform__cards--line4 {
+  position: relative;
+}
+
+.platform__cards--line4::before {
+  content: "";
+  background: url("../img/svg/Line 4.svg");
+  width: 21.63px;
+  height: 0px;
+  position: absolute;
+  left: 0;
+}
+
+.platform__cards {
+}
+
+.cards {
+  margin-top: 183.99px;
+}
+
+.cards__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards__row-sm {
+  display: flex;
+}
+
+.cards__card {
+  background: #0a0a0d;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 46px;
+  position: relative;
+  box-shadow: -7px 10px 24px 2px rgba(0, 0, 0, 0.75);
+}
+
+.cards__card--big {
+  width: 464px;
+  height: 691px;
+}
+
+.cards__card--big::after {
+  content: "";
+  position: absolute;
+  width: 256.79px;
+  height: 167.46px;
+  bottom: -68px;
+  right: -75px;
+  background: rgba(47, 47, 45, 0.8);
+  filter: blur(114px);
+}
+
+.cards__card-sm {
+  width: 320px;
+  height: 358px;
+  box-shadow: -7px 10px 24px 2px rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+
+.cards__card-sm::after {
+  content: "";
+  position: absolute;
+  width: 177.1px;
+  height: 86.76px;
+  right: 0;
+  bottom: -10px;
+  background: rgba(47, 47, 45, 0.8);
+  filter: blur(97px);
+}
+
+.cards__card-img {
+  position: absolute;
+  left: 0;
+}
+
+.cards__card-content {
+  padding-top: 351px;
+  padding-bottom: 116px;
+  padding-left: 30px;
+  padding-right: 105px;
+}
+
+.cards__card-content1 {
+  padding: 30px 30px 46px 37px;
+}
+
+.cards__card-title {
+  font-family: "Mazzard H medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+.cards__card-subtitle {
+  margin-top: 61px;
+  width: 329px;
+  height: 145px;
+  font-family: "Mazzard H regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.cards__card-subtitle1 {
+  margin-top: 66px;
+  width: 244px;
+  font-family: "Mazzard H regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+.gradient {
+  font-family: "Mazzard H medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  font-feature-settings: "pnum" on, "lnum" on;
+  background: linear-gradient(
+    89.95deg,
+    #487fff -1.65%,
+    #73b5ff 51.06%,
+    #cb76ff 99.96%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.cards__card-more {
+  display: inline-block;
+  margin-top: 61px;
+  font-family: "Mazzard H regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #aaaaaa;
+}
+
+.medium {
+  display: inline-block;
+  font-family: "Mazzard H medium";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cards__card--md {
+  margin-top: 30px;
+  width: 676px;
+  height: 303px;
+  position: relative;
+}
+
+.cards__card-bg4 {
+  position: absolute;
+  right: 0;
+}
+
+.cards__card-content4 {
+  padding: 27px 30px 0 30px;
+}
+
+.cards__card-title4 {
+  font-family: "Mazzard H medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin-bottom: 61px;
+}
+
+.cards__card-subtitle4 {
+  width: 312px;
+  font-family: "Mazzard H regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+/* About platform */
